@@ -1,0 +1,49 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  gap: 30px 11px;
+}
+
+.flex-item {
+  border: 3px solid gray;
+  /* flex-grow: 1;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px; */
+}
+
+.flex-item:hover {
+  border-color: green;
+  box-shadow: 0px 0px 30px rgba(46, 105, 64, 0.801);
+}
+
+.flex-item:focus {
+  border-color: green;
+  box-shadow: 0px 0px 30px rgba(46, 105, 64, 0.801);
+}
+
+.llave-img {
+  width: 200px;
+}
+
+h3 {
+  color: rgb(88, 88, 88);
+}
+
+p b {
+  color: rgb(40, 175, 40);
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  background-color: forestgreen;
+  border: none;
+  width: 80px;
+  height: 40px;
+  margin: 100px;
+  font-size: 20px;
+}
